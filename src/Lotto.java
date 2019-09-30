@@ -54,6 +54,7 @@ public class Lotto {
             Arrays.stream(number.numberR()).mapToObj(a -> " "+ a +",").forEach(System.out::print);
 
             System.out.println();
+
         }
             System.out.println((System.nanoTime() - start) / 1000000);
     }
