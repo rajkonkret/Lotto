@@ -25,7 +25,7 @@ public class Lotto {
 
         System.out.println(spool.length);*/
         long start = System.nanoTime();
-        for (j = 1; j <= 400000; j++) {
+        for (j = 1; j <= 5; j++) {
             System.out.println("Losowanie nr: " + j + " wylosowane liczby to:");
 //            for (i = 0; i < 6; i++) {
 //                itis = true;
